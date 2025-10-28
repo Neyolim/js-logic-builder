@@ -1,0 +1,13 @@
+# RULES 
+
+- I will present a problem statement
+- Understand the problem statement
+- Pause the video and try to solve the problem for minimum 10-15 minutes
+- Resume the video and compare the solution
+- Try again if you did not get result correct
+
+"If the only tool you have is a hammer, you tend to see every problem as a nail." - Abraham Maslow 
+
+"It's not that I'm so smart, it's just that I stay with problems longer." - Albert Einstein 
+
+"No problem can withstand the assault of sustained thinking." - John Dewey
