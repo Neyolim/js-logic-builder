@@ -25,23 +25,6 @@ console.log(smallestNumberOfThree(3, 3, 1));
 console.log(smallestNumberOfThree(9, 9, 9)); // breaks
 console.log(smallestNumberOfThree("one", 9, 9)); // breaks
 
-// Method -2
-
-// function smallestNumberOfThree(a, b, c) {
-//   // Validation
-//   if (typeof a != "number" || typeof b != "number" || typeof c != "number")
-//     return "Invalid input";
-
-//   // Put values in array, sort, and return first element
-//   return [a, b, c].sort((x, y) => x - y)[0];
-// }
-
-// console.log(smallestNumberOfThree(3, 1, 6));
-// console.log(smallestNumberOfThree(-1, -6, 9));
-// console.log(smallestNumberOfThree(3, 3, 1));
-// console.log(smallestNumberOfThree(9, 9, 9)); // breaks
-// console.log(smallestNumberOfThree("one", 9, 9)); // breaks
-
 // // This one is more readable
 
 // function smallestOfThree2() {
@@ -58,6 +41,23 @@ console.log(smallestNumberOfThree("one", 9, 9)); // breaks
 // console.log(smallestNumberOfThree(3, 1, 6));
 // console.log(smallestNumberOfThree(-1, -6, 9));
 // console.log(smallestNumberOfThree(3, 3, 1));
+
+// Method -2
+
+// function smallestNumberOfThree(a, b, c) {
+//   // Validation
+//   if (typeof a != "number" || typeof b != "number" || typeof c != "number")
+//     return "Invalid input";
+
+//   // Put values in array, sort, and return first element
+//   return [a, b, c].sort((x, y) => x - y)[0];
+// }
+
+// console.log(smallestNumberOfThree(3, 1, 6));
+// console.log(smallestNumberOfThree(-1, -6, 9));
+// console.log(smallestNumberOfThree(3, 3, 1));
+// console.log(smallestNumberOfThree(9, 9, 9)); // breaks
+// console.log(smallestNumberOfThree("one", 9, 9)); // breaks
 
 // Method -3
 
