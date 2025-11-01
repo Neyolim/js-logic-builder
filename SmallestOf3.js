@@ -75,4 +75,4 @@ console.log(smallestNumberOfThree("one", 9, 9)); // breaks
 // console.log(findSmallest([3, 1, 6]));
 
 
-// As developers, we need to make our code "robust" - meaning it should be stable,  resilient, and able to handle errors or unexpected inputs gracefully without crashing.
+As developers, we need to make our code "robust" - meaning it should be stable,  resilient, and able to handle errors or unexpected inputs gracefully without crashing.

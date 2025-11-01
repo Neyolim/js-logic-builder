@@ -33,4 +33,4 @@ console.log(reverseString(23424)); // breaks
 // reverseString2("Neyong")
 // reverseString2("Software Development")
 
-// Logic is important, but thorough testing across diverse scenarios is what ensures your code remains robust and reliable.
+Logic is important, but thorough testing across diverse scenarios is what ensures your code remains robust and reliable.
