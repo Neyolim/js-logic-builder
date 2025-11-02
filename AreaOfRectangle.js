@@ -20,7 +20,7 @@ function AreaOfRectangle(length, width) {
 AreaOfRectangle(4, 5);
 AreaOfRectangle(450, 500);
 
-This inputs are invalid so we must consider them and add some validations to make the code more robust
+// This inputs are invalid so we must consider them and add some validations to make the code more robust
 
 // AreaOfRectangle(0, 23);
 // AreaOfRectangle(400, 0);
