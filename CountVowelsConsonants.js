@@ -8,6 +8,26 @@
 //     - "Hello World" => 3 vowels & 7 consonants
 //     - "Ashish Saluja" => 5 vowels & 7 consonants
 
+// Method - 1
+
+function calculateVowelAndConsonant(str) {
+  return str
+    .toLowerCase()
+    .split("")
+    .reduce(
+      (acc, c) => {
+        if ("aeiou".includes(c)) acc.vowels++;
+        else if ("bcdfghjklmnpqrstvwxyz".includes(c)) acc.consonants++;
+        return acc;
+      },
+      { vowels: 0, consonants: 0 }
+    );
+}
+console.log(calculateVowelAndConsonant("Ashish Saluja"));
+console.log(calculateVowelAndConsonant("Hello World"));
+
+// Method - 2
+
 function calculateVowelAndConsonant(string) {
   let vowels = "aeiou";
   let consonants = "bcdfghjklmnpqrstvwxyz";
