@@ -4,7 +4,6 @@
 // - Return: Factors of a number
 // - Factor: Is a number that divides the given number evenly or exactly, leaving no remainder
 // - Example:
-<<<<<<< HEAD
 //     - 4: 1,2,4
 //     - 14: 1,2,7,14
 //     - 35: 1,5,7,35
@@ -28,4 +27,3 @@ function factorsOfNumber(num) {
 console.log(factorsOfNumber(4));
 console.log(factorsOfNumber(14));
 console.log(factorsOfNumber(35));
-
