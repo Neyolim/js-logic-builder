@@ -5,8 +5,27 @@
 // - Prime number: A number that can be only be divided by itself and 1 without remainders
 // - Example: 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97
 // - Example of 5:
-//     - 1 - 5/1 -> 0
-//     - 2 - 5/2 -> 1
-//     - 3 - 5/3 -> 2
-//     - 4 - 5/4 -> 1
-//     - 5 - 5/5 -> 0
+  //     - 1 - 5/1 -> 0
+  //     - 2 - 5/2 -> 1
+  //     - 3 - 5/3 -> 2
+  //     - 4 - 5/4 -> 1
+  //     - 5 - 5/5 -> 0
+
+ // Method - 1 [Less Optimized Code]
+
+function isPrimeNumber(num) {
+  if (num <= 1) return false;
+
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      return false;
+      break;
+    }
+  }
+  return true;
+}
+
+console.log(isPrimeNumber(5)); // true
+console.log(isPrimeNumber(2)); // true
+console.log(isPrimeNumber(4)); // false
+
