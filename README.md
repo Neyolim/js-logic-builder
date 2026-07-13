@@ -1,5 +1,3 @@
-# js-logic-builder
-
 A collection of JavaScript solutions focused on improving logic building and problem-solving skills through consistent practice.
 
 ## Purpose
